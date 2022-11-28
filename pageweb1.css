@@ -1,0 +1,109 @@
+body {
+	background-image: url("fixin1.jpg");
+	background-size: cover;
+}
+
+header {
+
+	color: black;
+	background-color: rgba(255, 255, 255, 1);
+	margin-bottom: 5px;
+	display: inline-block;
+	border: solid 1px;
+	margin-left: calc(43% - 5ex);
+	margin-top: 10px;
+
+}
+
+nav a {
+	display: inline-block;
+	width: calc(100%/2 - 3px);
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+a {
+	background-color: rgba(254, 231, 240, 0.8);
+	color: rgba(0, 0, 0, 0.7);
+}
+
+img {
+	margin: 4px;
+}
+
+p {
+	font-size: 17px;
+	background-color: rgba(255, 255, 255, 0.7);
+	border: solid 1px;
+	text-align: center;
+	margin-block-start: auto;
+
+}
+
+article {
+	background-color: rgba(255, 255, 255, 0.7);
+	margin-right: 5px;
+	margin-left: 5px;
+	box-sizing: border-box;
+	border: solid 1px;
+}
+
+.premier_paragraphe {
+	display: inline-flex;
+	align-items: center;
+	width: calc(100%/1);
+	margin-left: 5px;
+}
+
+.figure {
+	display: inline-block;
+	text-align: center;
+}
+
+.figurine {
+	width: 70%;
+}
+
+.deuxieme_paragraphe {
+	display: inline-flex;
+	align-items: center;
+	width: calc(100%/1);
+	margin-left: 5px;
+}
+
+.livre {
+	display: inline-block;
+	text-align: center;
+}
+
+
+.mangatheque {
+	width: 60%;
+}
+
+
+.presentation {
+	text-align: center;
+}
+
+.bas_page {
+	font-size: 17px;
+	background-color: rgba(255, 255, 255, 0.7);
+	text-align: center;
+	margin-bottom: 0px;
+	display: block;
+	border: solid 0px;
+
+}
+
+.dernier-lien {
+	width: calc(100%/10 - 3px);
+}
+
+footer {
+	background-color: rgba(255, 255, 255, 0.7);
+	display: inline-block;
+	border: solid 1px;
+	margin-left: calc(50% - 14ex);
+	font-size: 17px;
+}
