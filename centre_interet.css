@@ -12,7 +12,7 @@ header {
 	border: solid 1px;
 	margin-left: calc(43% - 5ex);
 	margin-top: 10px;
-
+	font-size: 18px;
 }
 
 nav a {
@@ -37,15 +37,19 @@ p {
 	border: solid 1px;
 	text-align: center;
 	margin-block-start: auto;
-
 }
-
+.conclusion{
+	font-size: 20px;
+	border: solid 0px;
+	background-color: rgba(255, 255, 255, 0.0);
+}
 article {
 	background-color: rgba(255, 255, 255, 0.7);
 	margin-right: 5px;
 	margin-left: 5px;
 	box-sizing: border-box;
 	border: solid 1px;
+	font-size: 18px;
 }
 
 .premier_paragraphe {
@@ -53,6 +57,7 @@ article {
 	align-items: center;
 	width: calc(100%/1);
 	margin-left: 5px;
+	font-size: 18px;
 }
 
 .figure {
@@ -63,12 +68,20 @@ article {
 .figurine {
 	width: 70%;
 }
+.peindre{
+	display: inline-block;
+	text-align: center;
+}
+.peins{
+	width: 50%;
+}
 
 .deuxieme_paragraphe {
 	display: inline-flex;
 	align-items: center;
 	width: calc(100%/1);
 	margin-left: 5px;
+	font-size: 18px;
 }
 
 .livre {
@@ -81,23 +94,44 @@ article {
 	width: 60%;
 }
 
+.troisième_paragraphe{
+	display: inline-flex;
+	align-items: center;
+	width: calc(100%/1);
+	margin-left: 5px;
+	font-size: 18px;
+}
 
+.jeux{
+	display: inline-block;
+}
+
+.setup{
+	width: 70%;
+}
+
+.text{
+	text-align: center;
+}
+.quatrième_paragraphe{
+	text-align: center;
+    display: inline-block;
+	align-items: center;
+	width: calc(100%/1);
+	margin-left: 5px;
+	font-size: 20px;
+}
 .presentation {
 	text-align: center;
 }
 
 .bas_page {
-	font-size: 17px;
-	background-color: rgba(255, 255, 255, 0.7);
-	text-align: center;
-	margin-bottom: 0px;
-	display: block;
 	border: solid 0px;
-
 }
 
 .dernier-lien {
 	width: calc(100%/10 - 3px);
+	font-size : 21px;
 }
 
 footer {
